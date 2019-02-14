@@ -7,7 +7,7 @@ function Alert(props) {
         {props.children}
 
         <button type="button" className="close">
-            <span onClick={() => props.dismiss()}>&times;</span>
+        {props.dismiss === undefined ? null : <span onClick={() => props.dismiss()}>&times;</span>}
         </button>
     </div>
 }

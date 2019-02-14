@@ -43,7 +43,7 @@ class App extends Component {
           <Alert show={this.state.purchasable} type='warning' dismiss={this.purchaseCloseHandler}>
               This is a warning type alert
           </Alert>
-          <Alert show={this.state.purchasable} type='danger' dismiss={this.purchaseCloseHandler}>
+          <Alert show={this.state.purchasable} type='danger'>
               This is a danger type alert
           </Alert>
 
